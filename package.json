@@ -1,0 +1,19 @@
+{
+  "name": "aws-code-star-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "forever start app.js",
+    "test": "./node_modules/mocha/bin/mocha '*.test.js' --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "supertest": "^3.4.2"
+  }
+}
