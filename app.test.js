@@ -8,7 +8,7 @@ describe('GET /', function () {
         .get('/')
         .expect('Content-Type', /json/)
         .expect( res => {
-            assert.equal(res.body.name, 'Deloitte <3 Digital both deploy with load balancer');
+            assert.equal(res.body.name, 'Batman');
         })
         .expect(200,done)
     })

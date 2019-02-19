@@ -3,7 +3,7 @@ var app = express();
 
 app.get("/", (req, res, next) => {
     res.json({
-        'name': 'Deloitte <3 Digital both deploy'
+        'name': 'Batman'
     });
 });
 
